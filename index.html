@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
-    <title>Tetris</title>
+    <title>tetris</title>
+     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="start()">
-    <canvas id="canva" width="400" height="500" style="border: 5px solid #000000;"></canvas>
+
+<body>
+    <div id="score"></div>
+    <div class="div">
+      ◄ izquierda <br>
+      <hr>
+      ► derecha <br>
+      <hr>
+      ▼ bajar rapido <br>
+      <hr>
+      ▲ rotar pieza 
+      </div>
+    <canvas id="tetris" width="240" height="400"> </canvas>
+    <script src="script.js"></script>
+
+  
 </body>
 </html>
